@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "version": "0.0.0",
+  "name": "example",
+  "devDependencies": {
+    "@babel/core": "",
+    "@babel/preset-env": "",
+    "babel-jest": "",
+    "jest": "",
+    "jsdom": "^24.0.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "testEnvironment": "jsdom"
+}
