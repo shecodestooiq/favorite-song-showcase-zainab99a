@@ -1,17 +1,33 @@
 # Favorite Song Showcase
 
-Dear students,
+Dear students
 
-you have array of ages=[25, 18, 12, 16, 40] , you are requested the following
+create a web application that allows users to share their favorite song by submitting details about the song, including its name, a link to the song on youtube, a brief description of why it's their favorite, and the year they first listened to it.
+
+the application will then display this information along with an embedded youtube video of the song on the same page.
 
 ## Task Instructions
 
 Please follow the steps below to complete the task:
 
-1. Use a for loop to iterate over the ages array and double each age. Store the doubled ages in a new array called doubledAges and Print the doubledAges array to the console.
+1- create an html page with a form (formarea) that includes the following fields:
+song name (text input), youtube link (text input), description (textarea), year (number input)
 
-2.Use the forEach method to loop through the ages array and print each age to the console.
+2-include a submit button that will trigger the javascript function to process the form.
 
-3. Use the filter method to create a new array called adults that contains only ages greater than or equal to 18.
+3-add a separate div (display area) that will be used to display the song information and the youtube video. this div should initially be hidden.
 
-4. Use the map method to create a new array called ageStrings that contains string representations of each age in the ages array.
+javascript functionality:
+
+4-write a javascript function displaysonginfo() that is called when the user submits the form.
+this function should:
+
+5-extract the input values from the form.
+
+6-convert the youtube link into an embeddable format.
+
+7-dynamically update the display area with the song's name, description, year, and an embedded youtube video.
+
+8-hide the form and show the display area.
+
+Note: Make sure to add an id for the input field.
